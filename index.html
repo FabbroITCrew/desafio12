@@ -7,18 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Natividad Aromas </title>
   <link rel="shortcut icon" href="./assets/icons/logo-natividad.jpeg" type="image/x-icon" />
-  <!-- <link rel="stylesheet" href="./css/estilo.css" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
   <script src="./css/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/estiloAnimaciones.css" />
 </head>
 
 <body>
 
-  <header >
-    <nav class="navbar navbar-expand-lg bg-light p-4">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
       <div class="container-fluid"> <a class="navbar-brand" href="./index.html" alt="Pagina principal">NATIVIDAD
           AROMAS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,74 +39,90 @@
 
   </header>
   <main>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="container mt-5">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/carrousel01.jpeg" class="d-block w-100" alt="Carrousel 1" width="90%" height="600px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>NUESTROS PRODUCTOS</h5>
+              <p>Kit Home Spray mas frasco difusor.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/carrousel00.jpeg" class="d-block w-100" alt="Carrousel 2" width="90%" height="600px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PRESENTACIÓN PARA REGALO</h5>
+              <p>Vela Kansas y Home Spray</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/carrousel02.jpeg" class="d-block w-100" alt="Carrousel 3" width="90%" height="600px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VELAS AROMÁTICAS</h5>
+              <p>Vela Ostende.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/carrousel03.jpeg" class="d-block w-100" alt="Carrousel 4" width="90%" height="600px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VARIEDAD DE FORMATOS Y ENTREGAS</h5>
+              <p>Armá tu pedido personalizado.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previa</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./assets/img/" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
-
-
-   ----------------------- 
-    <div class="container-sm p-5">
+    <div class="container-sm p-3">
       <h1 class="display-4">A quién no le gusta entrar a su casa y notar un aroma reconfortante que nos haga
         sentir cómodo que
         nos provoque </h1>
       <p class="lead ">
         <small class="text-muted"> El olfato es uno de los sentidos con mayor capacidad evocadora.
           Y es que el aroma de tu casa tiene casi la misma importancia que cualquier otro elemento
-          decorativo de tu hogar, <br /> debemos crear entonces, un diseño integral y armonioso a través de
-          una experiencia multisensorial.
-          <br /><br /> Te invitamos a conocernos.</small>
-      </p>
+          decorativo de tu hogar, debemos crear entonces, un diseño integral y armonioso a través de
+          una experiencia multisensorial.</small>
+      <p class="invitar text-center pt-4 fs-3"><a href="./pages/productos.html" class="text-decoration-none">Te
+          invitamos a conocernos</a></p>
 
     </div>
-
-
   </main>
-  <footer>
-    <h2>@2022 Desing by Fabbro</h2>
-    <ul>
-      <li><a href=" mailto:natividad@gmail.com" target="_blank">
-          <img src="./assets/icons/ico-Mail.png" alt="email" width="30" height="30" /> </a></li>
-      <li> <a href="https://www.instagram.com/natividad.aromas/" target="_blank">
-          <img src="./assets/icons/ico-Instagram.png" alt="Instagram" width="30" height="30" /> </a></li>
-      <li><a href="https://telegram.org/" target="_blank">
-          <img src="./assets/icons/ico-Telegram.png" alt="Telegram" width="30" height="30" /> </a></li>
+  <footer class="navbar-dark bg-dark p-5">
+    <ul class="nav justify-content-end">
+      <li class="nav-item footerIco">
+        <a class="nav-link active" aria-current="page" href="mailto:natividad@gmail.com"><img
+            src="./assets/icons/ico-Mail.png" alt="email" width="30" height="30" /></a>
+      </li>
+      <li class="nav-item footerIco">
+        <a class="nav-link" href="https://www.instagram.com/natividad.aromas/"><img
+            src="./assets/icons/ico-Instagram.png" alt="Instagram" width="30" height="30" /></a>
+      </li>
+      <li class="nav-item footerIco">
+        <a class="nav-link" href="https://telegram.org/"> <img src="./assets/icons/ico-Telegram.png" alt="Telegram"
+            width="30" height="30" /></a>
+      </li>
     </ul>
+    <h2 class="navbar-brand">@2022 Desing by Fabbro</h2>
   </footer>
 </body>
 

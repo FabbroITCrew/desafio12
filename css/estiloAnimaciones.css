@@ -1,0 +1,28 @@
+
+.card{
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+  }
+
+  .invitar a{
+    color: #555;
+    background-color: #ffaa66;
+    width: 35%;
+    justify-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .invitar a:hover {
+    color: #ffaa66;
+    background-color: #555;
+  }
+  .footerIco:hover {
+    transform: scale(120%);
+  }
